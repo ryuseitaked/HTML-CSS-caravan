@@ -215,3 +215,50 @@ footer {
 .footer-text {
   color: #fff;
 }
+
+@media screen and (max-width: 425px) {
+  .social {
+    position: static;
+  }
+  .nav-list-item {
+    display: block;
+    max-width: 20px 0;
+  }
+  .main-visual-content {
+    width: 100%;
+  }
+  main {
+    width: 100%;
+    display: block;
+  }
+  .blog {
+    width: 100%;
+  }
+  .blog-image {
+    width: 160px;
+    height: 160px;
+  }
+  .sidebar {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .instagram-box {
+    width: 160px;
+    height: 160px;
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  main {
+    width: 100%;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    width: 100%;
+    display: block;
+  }
+}
